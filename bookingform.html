@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking form</title>
+    <link href="pharmacy.css" rel="stylesheet"></link>
+</head>
+
+<body>
+    <div class="testform">
+
+        <form>
+            <h3>1. Your Contact Details</h3>
+            <input type="text" id="fname" name="fname" value="First Name">
+            <input type="text" id="Patient" name="Patient id" value="Patient Id if exists">
+            <input type="text" id="Contact" name="contact" value="Contact Number" size="10">
+            <input type="email" id="email" name="emailid" value="Email Id">
+        </form>
+
+        <form>
+            <h3>2. Address</h3>
+            <input type="text" id="hnimber" name="housenumber" value="House Number">
+            <input type="text" id="street" name="srt" value="Street">
+            <input type="text" id="area" name="area" value="Area">
+            <label for="dist">District</label>
+            <select id="dist" name="dist">
+                <option value="District">select</option>
+                <option value="District">select</option>
+                <option value="District">select</option>
+            </select>
+        </form>
+        <form>
+            <h3>3. Test Type</h3>
+            <h5>Note: Check atleast one box without fail</h5>
+            <input type="checkbox" value="CBC">CBC</input><br>
+            <input type="checkbox" value="Complete Urine">Complete Urine</input><br>
+            <input type="checkbox" value="Lipid Profile">Lipid Profile</input><br>
+            <input type="checkbox" value="Thyroid Stimulating Hormone(TSH)">Thyroid Stimulating Hormone(TSH)</input><br>
+            <input type="checkbox" value="Glucose Test">Glucose Test</input><br>
+        </form>
+        <form>
+            <h3>4. Do you want a hard copy of the report also?</h3>
+            <input type="radio" id="yes" name="yes" value="YES">
+            <label for="yes">YES</label><br>
+            <input type="radio" id="no" name="no" value="NO">
+            <label for="no">NO</label><br>
+        </form>
+        <form>
+            <h3>5. Select Your Comfortable Date and Time</h3>
+            <input type="date">
+            <input type="time">
+        </form>
+    </div>
+    <div class="testimg">
+        <img src="Images/Lab-Test/lab-test.jpg" alt="lab test image">
+    </div>
+    <form>
+        <input type="reset">
+    </form>
+    <a href="message.html"><button>Submit</button></a>
+</body>
+
+</html>
